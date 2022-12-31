@@ -1,8 +1,8 @@
 # PXE 2.0 With Proxy DHCP
 
-Créée par: Anonymous
-Date de création: December 13, 2022
-Étiquette: Sysadmin
+- By : Greydark
+- Date : December 13, 2022
+- Tag : Sysadmin
 
 # Requirements
 
