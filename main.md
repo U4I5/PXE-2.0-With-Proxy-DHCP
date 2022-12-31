@@ -29,7 +29,7 @@ dnf install grub2-efi-x64-modules grub2-tools-extra -y
 grub2-mknetdir --net-directory /var/lib/tftpboot/
 ```
 
-![grub2-mknetdir.png](PXE%202%200%20With%20Proxy%20DHCP%20232f250691664363a30253a30da70892/grub2-mknetdir.png)
+![grub2-mknetdir.png](assets/grub2-mknetdir.png)
 
 # DHCP Proxy
 
@@ -116,7 +116,7 @@ ln -sf /var/lib/tftpboot/grub.cfg /var/lib/tftpboot/boot/grub2/x86_64-efi/grub.c
 restorecon -r /var/lib/tftpboot/
 ```
 
-![symlink_grub-cfg.png](PXE%202%200%20With%20Proxy%20DHCP%20232f250691664363a30253a30da70892/symlink_grub-cfg.png)
+![symlink_grub-cfg.png](assets/symlink_grub-cfg.png)
 
 ### ***Configuring our Menu Grub for testing***
 
@@ -142,14 +142,14 @@ menuentry 'Shutdown' {
 
 ### ***Overview of the config above***
 
-![Grub Menu Overview.png](PXE%202%200%20With%20Proxy%20DHCP%20232f250691664363a30253a30da70892/Grub_Menu_Overview.png)
+![Grub Menu Overview.png](assetsGrub_Menu_Overview.png)
 
 ### ***Now i Will custom my Boot-loader like a boss*** 😎
 
 > ***Preview of a custom grub***
 > 
 
-![preview-legion.png](PXE%202%200%20With%20Proxy%20DHCP%20232f250691664363a30253a30da70892/preview-legion.png)
+![preview-legion.png](assets/preview-legion.png)
 
 ### ***Let’s customize our Grub***
 
@@ -157,9 +157,9 @@ menuentry 'Shutdown' {
 We can find Various Grub themes on : **https://www.gnome-look.org/browse?cat=109&ord=rating**
 ```
 
-![Untitled](PXE%202%200%20With%20Proxy%20DHCP%20232f250691664363a30253a30da70892/Untitled.png)
+![Untitled](assets/Untitled.png)
 
-![Untitled](PXE%202%200%20With%20Proxy%20DHCP%20232f250691664363a30253a30da70892/Untitled%201.png)
+![Untitled](assets/Untitled%201.png)
 
 ```bash
 # download grub theme you want, In my case i choose "DedSec"
@@ -213,7 +213,7 @@ menuentry 'Shutdown' {
 }
 ```
 
-![Untitled](PXE%202%200%20With%20Proxy%20DHCP%20232f250691664363a30253a30da70892/Untitled%202.png)
+![Untitled](assets/Untitled%202.png)
 
 # HTTP SERVR
 
@@ -277,7 +277,7 @@ $ setsebool -P httpd setrlimit on
 echo "Hello Greydark !" > /var/www/lighttpd/Hello_world.txt
 ```
 
-![Untitled](PXE%202%200%20With%20Proxy%20DHCP%20232f250691664363a30253a30da70892/Untitled%203.png)
+![Untitled](assets/Untitled%203.png)
 
 # FINISHING
 
