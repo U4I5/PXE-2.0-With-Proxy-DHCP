@@ -21,7 +21,7 @@ Date de création: December 13, 2022
 dnf install grub2-efi-x64-modules grub2-tools-extra -y
 ```
 
-![Grub package.png](PXE%202%200%20With%20Proxy%20DHCP%20232f250691664363a30253a30da70892/Grub_package.png)
+![Grub package.png](assets/Grub_package.png)
 
 ### ***Grub2-mknetdir***
 
