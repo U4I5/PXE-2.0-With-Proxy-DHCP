@@ -142,7 +142,7 @@ menuentry 'Shutdown' {
 
 ### ***Overview of the config above***
 
-![Grub Menu Overview.png](assetsGrub_Menu_Overview.png)
+![Grub Menu Overview.png](assets/Grub_Menu_Overview.png)
 
 ### ***Now i Will custom my Boot-loader like a boss*** 😎
 
