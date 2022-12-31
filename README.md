@@ -1,2 +1,0 @@
-# PXE-2.0-With-Proxy-DHCP
-SETUP PXE SERVER With Proxy DHCP
